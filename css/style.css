@@ -170,6 +170,11 @@ body {
         
         inline-size: 40rem;
         block-size: 13.5rem;
+        padding-inline: 2.7rem;
+        padding-block: 2.4rem;
+    }
+    .intro-h {
+        font-size: 1.45rem;
     }
 
     .sign-up-con {
