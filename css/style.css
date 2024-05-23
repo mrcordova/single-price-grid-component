@@ -89,6 +89,10 @@ body {
     font-size: 1.1rem;
     color: var(--light-gray);
 }
+
+.sign-up-details {
+    color: var(--light-gray);
+}
 .sign-up-para {
     display: flex;
     align-items: center;
