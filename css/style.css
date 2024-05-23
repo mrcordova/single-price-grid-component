@@ -199,12 +199,15 @@ body {
     }
     .sign-up-details {
         font-size: 0.98rem;
+        line-height: 1.3;
         
     }
     .sign-up-btn {
         margin-block-end: 0rem;
        
     }
+
+   
     .why-us-con {
         inline-size: 20rem;
         block-size: 16.1rem;
