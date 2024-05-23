@@ -125,8 +125,15 @@ body {
     block-size: 14.1rem;
     background-color: hsl(from var(--cyan) h s l / 0.7);
     padding-inline: 1.4rem;
+    padding-block: 1.15rem;
 }
-
+.why-h {
+    font-size: 1.15rem;
+    color: var(--light-gray);
+}
+.why-list {
+    
+}
 .why-h, .why-list {
     flex: 1;
 }
