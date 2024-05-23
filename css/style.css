@@ -60,7 +60,7 @@ body {
 
     padding-block: clamp(1.4rem, 1.0479rem + 1.5023vw, 2.4rem);;
     /* padding-block: 1.4rem; */
-    /* flex: 1; */
+    /* flex: 2; */
     border-top-right-radius: 8px;
     border-top-left-radius: 8px;
     
@@ -95,9 +95,8 @@ body {
     /* padding-block-start: 0.1rem; */
     padding-block-start: clamp(0rem, -0.3345rem + 1.4272vw, 0.95rem);
     padding-block-end: clamp(0rem, 0.6761rem + -0.7512vw, 0.5rem);
-    /* padding-block-end: 0.5rem; */
+  
    line-height: 1.35;
-    /* padding-block-start: 1rem; */
 }
 .sign-up-btn {
     text-align: center;
@@ -112,10 +111,16 @@ body {
     box-shadow: 0px 9px 20px 0px rgba(0, 0, 0, 0.2);
         
 }
+
+.sign-up-btn:hover {
+    cursor: pointer;
+    background-color: var(--light-gray);
+    color: var(--bright-yellow);
+}
 .sign-up-con {
     display: flex;
     flex-direction: column;
-
+    
     inline-size: clamp(19.5rem, 19.3239rem + 0.7512vw, 20rem);
     block-size: clamp(14.3rem, 13.6662rem + 2.7042vw, 16.1rem);
 
@@ -123,12 +128,9 @@ body {
     /* padding-inline: 1.4rem; */
 
     padding-block: clamp(1.15rem, 0.7275rem + 1.8028vw, 2.35rem);
-    /* padding-block: 1.15rem; */
-    /* margin-block-end: 0.95rem; */
-    /* inline-size: 19.5rem; */
-    /* block-size: 14.3rem; */
+
     background-color: var(--cyan);
-    /* flex: 1; */
+    /* flex-shrink: 1; */
 }
 .sing-up-h, .sing-up-para, .sign-up-details, .sing-up-btn {
     flex: 1;
@@ -173,7 +175,8 @@ body {
     /* padding-block: 1.15rem; */
 
     border-bottom-right-radius: 8px;
-     border-bottom-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    
 }
 .why-h {
     font-size: 1.15rem;
@@ -190,58 +193,23 @@ body {
 
 
 @media(min-width: 760px) {
-    .content {
-        /* inline-size: 40rem; */
-        /* block-size: 29.6rem; */
-    }
-
-    .intro-con {
-        
-        /* inline-size: 40rem; */
-        /* block-size: 13.5rem; */
-        /* padding-inline: 2.7rem; */
-        /* padding-block: 2.4rem; */
-    }
-    .intro-detail-para {
-        /* font-size: 0.98rem; */
-        /* padding-block-end: 0rem; */
-    }
-    .intro-h {
-        /* font-size: 1.45rem; */
-    }
-    
-    .intro-para {
-
-        /* font-size: 1.1rem; */
-        /* padding-block-start: 0.95rem; */
-        /* padding-block-end: 0rem; */
-    }
-
+   
 
     .sign-up-con {
-        /* flex: 1; */
-        /* block-size: 16.1rem; */
-        /* inline-size: 20rem; */
-        /* padding-inline: 2.7rem; */
-        /* padding-block: 2.35rem; */
+       
         border-bottom-left-radius: 8px;
     }
     .sign-up-details {
-        /* font-size: 0.98rem; */
+       
         line-height: 1.3;
         
     }
-    .sign-up-btn {
-        /* margin-block-end: 0rem; */
-       
-    }
+   
 
    
     .why-us-con {
-        /* inline-size: 20rem; */
-        /* block-size: 16.1rem; */
+      
         border-bottom-left-radius: 0px;
-        /* padding-inline: 2.6rem; */
-        padding-block: 2.4rem;
+      
     }
 }
