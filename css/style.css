@@ -32,7 +32,9 @@ body {
     display: flex;
     flex-wrap: wrap;
     inline-size: 19.5rem;
+    
     block-size: 45.18rem;
+   
     /* border-radius: 8px; */
     /* border: 1px solid black; */
     border-radius: 8px;
@@ -45,6 +47,7 @@ body {
     display: flex;
     flex-direction: column;
     inline-size: 19.5rem;
+   
     block-size: 16.7rem;
     background-color: white;
     padding-block: 1.4rem;
@@ -157,4 +160,9 @@ body {
 }
 
 
-
+@media(min-width: 760px) {
+    .content {
+        inline-size: 40rem;
+        block-size: 29.6rem;
+    }
+}
