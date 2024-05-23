@@ -56,7 +56,16 @@ body {
     /* color: red; */
 }
 
+.intro-detail-para {
+    font-size: .85rem;
+    line-height: 1.95;
+    padding-block-start: 1rem;
+    padding-block-end: 0.3rem;
+}
+
 .intro-para {
     font-size: 0.92rem;
     color: var(--bright-yellow);
+    padding-block-start: 0.5rem;
+    /* padding-block-start: 1rem; */
 }
