@@ -40,9 +40,18 @@ body {
     flex-direction: column;
     inline-size: 19.5rem;
     block-size: 16.5rem;
+
+    padding-block: 1.4rem;
+    padding-inline: 1.4rem;
     /* flex: 1; */
 }
 
 .intro-h, .intro-para, .intro-detail-para {
     flex: 1;
+}
+
+.intro-h {
+    font-size: 1.24rem;
+    color: var(--cyan);
+    /* color: red; */
 }
