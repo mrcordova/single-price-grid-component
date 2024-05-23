@@ -193,7 +193,17 @@ body {
         /* flex: 1; */
         block-size: 16.1rem;
         inline-size: 20rem;
+        padding-inline: 2.7rem;
+        padding-block: 2.35rem;
         border-bottom-left-radius: 8px;
+    }
+    .sign-up-details {
+        font-size: 0.98rem;
+        
+    }
+    .sign-up-btn {
+        margin-block-end: 0rem;
+       
     }
     .why-us-con {
         inline-size: 20rem;
