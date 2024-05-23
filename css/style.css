@@ -55,3 +55,8 @@ body {
     color: var(--cyan);
     /* color: red; */
 }
+
+.intro-para {
+    font-size: 0.92rem;
+    color: var(--bright-yellow);
+}
