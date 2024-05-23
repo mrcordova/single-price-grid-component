@@ -209,5 +209,7 @@ body {
         inline-size: 20rem;
         block-size: 16.1rem;
         border-bottom-left-radius: 0px;
+        padding-inline: 2.6rem;
+        padding-block: 2.4rem;
     }
 }
