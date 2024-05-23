@@ -25,6 +25,7 @@ html, body {
 body {
     display: grid;
     place-content: center;
+    background-color: var(--light-gray);
 }
 
 .content {
@@ -32,7 +33,8 @@ body {
     flex-wrap: wrap;
     inline-size: 19.5rem;
     block-size: 45.18rem;
-    border: 1px solid black;
+    /* border-radius: 8px; */
+    /* border: 1px solid black; */
 }
 
 .intro-con {
@@ -40,10 +42,12 @@ body {
     flex-direction: column;
     inline-size: 19.5rem;
     block-size: 16.7rem;
-
+    background-color: white;
     padding-block: 1.4rem;
     padding-inline: 1.4rem;
     /* flex: 1; */
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
 }
 
 .intro-h, .intro-para, .intro-detail-para {
@@ -126,6 +130,9 @@ body {
     background-color: hsl(from var(--cyan) h s l / 0.9);
     padding-inline: 1.4rem;
     padding-block: 1.15rem;
+
+    border-bottom-right-radius: 8px;
+     border-bottom-left-radius: 8px;
 }
 .why-h {
     font-size: 1.15rem;
