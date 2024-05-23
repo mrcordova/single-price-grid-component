@@ -1,0 +1,36 @@
+
+:root {
+    --cyan: hsl(179, 62%, 43%);
+    --bright-yellow: hsl(71, 73%, 54%);
+    --light-gray: hsl(204, 43%, 93%);
+    --grayish-blue: hsl(218, 22%, 67%);
+}
+.karla-400{
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.karla-700{
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: grid;
+    place-content: center;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    inline-size: 19.5rem;
+    block-size: 45.18rem;
+    border: 1px solid black;
+}
