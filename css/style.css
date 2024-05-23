@@ -71,3 +71,32 @@ body {
    line-height: 1.35;
     /* padding-block-start: 1rem; */
 }
+
+.sign-up-con {
+    display: flex;
+    flex-direction: column;
+    padding-inline: 1.4rem;
+    padding-block: 1.15rem;
+    inline-size: 19.5rem;
+    block-size: 14.5rem;
+    background-color: var(--cyan);
+    /* flex: 1; */
+}
+.sing-up-h, .sing-up-para, .sign-up-details, .sing-up-btn {
+    flex: 1;
+}
+.sign-up-h {
+    font-size: 1.1rem;
+    color: var(--light-gray);
+}
+.sign-up-para {
+    display: flex;
+    align-items: center;
+    padding-block-start: 0.4rem;
+    color: var(--grayish-blue);
+}
+.sign-up-para>span {
+    font-size: 2.05rem;
+    padding-inline-end: 0.7rem;
+    color: var(--light-gray);
+}
