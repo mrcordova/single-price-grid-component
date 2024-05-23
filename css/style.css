@@ -176,6 +176,13 @@ body {
     .intro-h {
         font-size: 1.45rem;
     }
+    .intro-para {
+
+        font-size: 1.1rem;
+        padding-block-start: 0.95rem;
+        padding-block-end: 0rem;
+    }
+
 
     .sign-up-con {
         /* flex: 1; */
