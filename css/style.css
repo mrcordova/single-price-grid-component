@@ -123,7 +123,7 @@ body {
     flex-direction: column;
     inline-size: 19.5rem;
     block-size: 14.1rem;
-    background-color: hsl(from var(--cyan) h s l / 0.7);
+    background-color: hsl(from var(--cyan) h s l / 0.9);
     padding-inline: 1.4rem;
     padding-block: 1.15rem;
 }
@@ -132,7 +132,9 @@ body {
     color: var(--light-gray);
 }
 .why-list {
-    
+    font-size: 0.85rem;
+    padding-block: 0.8rem 0.7rem;
+    color: hsl(from var(--light-gray) h s l / 0.7);;
 }
 .why-h, .why-list {
     flex: 1;
