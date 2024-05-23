@@ -34,3 +34,15 @@ body {
     block-size: 45.18rem;
     border: 1px solid black;
 }
+
+.intro-con {
+    display: flex;
+    flex-direction: column;
+    inline-size: 19.5rem;
+    block-size: 16.5rem;
+    /* flex: 1; */
+}
+
+.intro-h, .intro-para, .intro-detail-para {
+    flex: 1;
+}
