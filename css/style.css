@@ -31,9 +31,12 @@ body {
 .content {
     display: flex;
     flex-wrap: wrap;
-    inline-size: 19.5rem;
-    
-    block-size: 45.18rem;
+
+
+    /* inline-size: 19.5rem; */
+    inline-size: clamp(19.5rem, 12.2817rem + 30.7981vw, 40rem);
+    block-size: clamp(29.6rem, 50.6659rem + -23.4066vw, 45.18rem);
+    /* block-size: 45.18rem; */
    
     /* border-radius: 8px; */
     /* border: 1px solid black; */
@@ -46,12 +49,17 @@ body {
 .intro-con {
     display: flex;
     flex-direction: column;
-    inline-size: 19.5rem;
-   
-    block-size: 16.7rem;
+
+    inline-size: clamp(19.5rem, 12.2817rem + 30.7981vw, 40rem);
+    /* inline-size: 19.5rem; */
+    block-size: clamp(13.5rem, 17.8268rem + -4.8075vw, 16.7rem);
+    /* block-size: 16.7rem; */
     background-color: white;
-    padding-block: 1.4rem;
-    padding-inline: 1.4rem;
+    padding-inline: clamp(1.4rem, 0.9423rem + 1.9531vw, 2.7rem);
+    /* padding-inline: 1.4rem; */
+
+    padding-block: clamp(1.4rem, 1.0479rem + 1.5023vw, 2.4rem);;
+    /* padding-block: 1.4rem; */
     /* flex: 1; */
     border-top-right-radius: 8px;
     border-top-left-radius: 8px;
@@ -63,24 +71,31 @@ body {
 }
 
 .intro-h {
-    font-size: 1.24rem;
+    font-size: clamp(1.24rem, 1.1661rem + 0.3155vw, 1.45rem);
+    /* font-size: 1.24rem; */
     color: var(--cyan);
     /* color: red; */
 }
 
 .intro-detail-para {
-    font-size: .85rem;
+    font-size: clamp(0.85rem, 0.8042rem + 0.1953vw, 0.98rem);
+    /* font-size: .85rem; */
     line-height: 1.85;
     padding-block-start: 0rem;
-    padding-block-end: 0.8rem;
+
+    padding-block-end: clamp(0rem, 1.0817rem + -1.2019vw, 0.8rem);
+    /* padding-block-end: 0.8rem; */
     color: var(--grayish-blue);
 }
 
 .intro-para {
-    font-size: 0.92rem;
+    font-size: clamp(0.92rem, 0.8566rem + 0.2704vw, 1.1rem);
+    /* font-size: 0.92rem; */
     color: var(--bright-yellow);
     /* padding-block-start: 0.1rem; */
-    padding-block-end: 0.5rem;
+    padding-block-start: clamp(0rem, -0.3345rem + 1.4272vw, 0.95rem);
+    padding-block-end: clamp(0rem, 0.6761rem + -0.7512vw, 0.5rem);
+    /* padding-block-end: 0.5rem; */
    line-height: 1.35;
     /* padding-block-start: 1rem; */
 }
@@ -88,7 +103,8 @@ body {
     text-align: center;
     padding-block: 0.8rem;
     background-color: var(--bright-yellow);
-    margin-block-end: 0.5rem;
+    margin-block-end: clamp(0rem, 0.6761rem + -0.7512vw, 0.5rem);
+    /* margin-block-end: 0.5rem; */
     border-radius: 8px;
     color: var(--light-gray);
 
@@ -99,11 +115,18 @@ body {
 .sign-up-con {
     display: flex;
     flex-direction: column;
-    padding-inline: 1.4rem;
-    padding-block: 1.15rem;
+
+    inline-size: clamp(19.5rem, 19.3239rem + 0.7512vw, 20rem);
+    block-size: clamp(14.3rem, 13.6662rem + 2.7042vw, 16.1rem);
+
+    padding-inline: clamp(1.4rem, 0.9423rem + 1.9531vw, 2.7rem);
+    /* padding-inline: 1.4rem; */
+
+    padding-block: clamp(1.15rem, 0.7275rem + 1.8028vw, 2.35rem);
+    /* padding-block: 1.15rem; */
     /* margin-block-end: 0.95rem; */
-    inline-size: 19.5rem;
-    block-size: 14.3rem;
+    /* inline-size: 19.5rem; */
+    /* block-size: 14.3rem; */
     background-color: var(--cyan);
     /* flex: 1; */
 }
@@ -116,6 +139,7 @@ body {
 }
 
 .sign-up-details {
+    font-size: clamp(0.98rem, 1.0070rem + -0.0300vw, 1rem);
     color: var(--light-gray);
 }
 .sign-up-para {
@@ -137,11 +161,16 @@ body {
 .why-us-con {
     display: flex;
     flex-direction: column;
-    inline-size: 19.5rem;
-    block-size: 14.1rem;
+    inline-size: clamp(19.5rem, 19.3239rem + 0.7512vw, 20rem);
+    /* inline-size: 19.5rem; */
+    block-size: clamp(14.1rem, 13.3958rem + 3.0047vw, 16.1rem);
+    /* block-size: 14.1rem; */
     background-color: hsl(from var(--cyan) h s l / 0.9);
-    padding-inline: 1.4rem;
-    padding-block: 1.15rem;
+
+    padding-inline: clamp(1.4rem, 0.9775rem + 1.8028vw, 2.6rem);
+    /* padding-inline: 1.4rem; */
+    padding-block: clamp(1.15rem, 0.7099rem + 1.8779vw, 2.4rem);
+    /* padding-block: 1.15rem; */
 
     border-bottom-right-radius: 8px;
      border-bottom-left-radius: 8px;
@@ -162,57 +191,57 @@ body {
 
 @media(min-width: 760px) {
     .content {
-        inline-size: 40rem;
-        block-size: 29.6rem;
+        /* inline-size: 40rem; */
+        /* block-size: 29.6rem; */
     }
 
     .intro-con {
         
-        inline-size: 40rem;
-        block-size: 13.5rem;
-        padding-inline: 2.7rem;
-        padding-block: 2.4rem;
+        /* inline-size: 40rem; */
+        /* block-size: 13.5rem; */
+        /* padding-inline: 2.7rem; */
+        /* padding-block: 2.4rem; */
     }
     .intro-detail-para {
-        font-size: 0.98rem;
-        padding-block-end: 0rem;
+        /* font-size: 0.98rem; */
+        /* padding-block-end: 0rem; */
     }
     .intro-h {
-        font-size: 1.45rem;
+        /* font-size: 1.45rem; */
     }
     
     .intro-para {
 
-        font-size: 1.1rem;
-        padding-block-start: 0.95rem;
-        padding-block-end: 0rem;
+        /* font-size: 1.1rem; */
+        /* padding-block-start: 0.95rem; */
+        /* padding-block-end: 0rem; */
     }
 
 
     .sign-up-con {
         /* flex: 1; */
-        block-size: 16.1rem;
-        inline-size: 20rem;
-        padding-inline: 2.7rem;
-        padding-block: 2.35rem;
+        /* block-size: 16.1rem; */
+        /* inline-size: 20rem; */
+        /* padding-inline: 2.7rem; */
+        /* padding-block: 2.35rem; */
         border-bottom-left-radius: 8px;
     }
     .sign-up-details {
-        font-size: 0.98rem;
+        /* font-size: 0.98rem; */
         line-height: 1.3;
         
     }
     .sign-up-btn {
-        margin-block-end: 0rem;
+        /* margin-block-end: 0rem; */
        
     }
 
    
     .why-us-con {
-        inline-size: 20rem;
-        block-size: 16.1rem;
+        /* inline-size: 20rem; */
+        /* block-size: 16.1rem; */
         border-bottom-left-radius: 0px;
-        padding-inline: 2.6rem;
+        /* padding-inline: 2.6rem; */
         padding-block: 2.4rem;
     }
 }
